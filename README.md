@@ -1,3 +1,5 @@
+Integrantes: Carlos Pérez y Diego Beñaldo.  
+
 1.) Identifique las principales clases del contexto descrito.  
 
 Cliente, UsuarioWeb, Cuenta, CarritoDeCompras, Producto, Pedido, Pago, FamiliaDeProductos	  
