@@ -1,5 +1,7 @@
-1.) Identifique las principales clases del contexto descrito. 
-Cliente, UsuarioWeb, Cuenta, CarritoDeCompras, Producto, Pedido, Pago, FamiliaDeProductos	
+1.) Identifique las principales clases del contexto descrito.  
+
+Cliente, UsuarioWeb, Cuenta, CarritoDeCompras, Producto, Pedido, Pago, FamiliaDeProductos	  
+
 2.) Identifique las clases que se relacionen entre sí, y el tipo de relación identificada. 
 Cliente y Cuenta: tienen una relación de dependencia, ya que una cuenta no puede existir sin un cliente asociado.
 Carrito de Compras y Cuenta: tienen una relación de dependencia, ya que un carrito de compras no puede existir sin estar vinculado a una cuenta.
