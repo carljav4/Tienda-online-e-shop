@@ -4,16 +4,26 @@ Cliente, UsuarioWeb, Cuenta, CarritoDeCompras, Producto, Pedido, Pago, FamiliaDe
 
 2.) Identifique las clases que se relacionen entre sí, y el tipo de relación identificada.   
 
-Cliente y Cuenta: tienen una relación de dependencia, ya que una cuenta no puede existir sin un cliente asociado.
-Carrito de Compras y Cuenta: tienen una relación de dependencia, ya que un carrito de compras no puede existir sin estar vinculado a una cuenta.
-Cliente y Usuario Web: tienen una relación de asociación, ya que el cliente puede registrarse como usuario de la web para poder comprar artículos en línea, pero no es obligatorio que el cliente sea un usuario de la web para hacer las compras (las compras también se pueden realizar por otros medios).
-Usuario Web y Carrito de Compras: tienen una relación de asociación, ya que el usuario web puede estar vinculado a un carrito de compras.
-Cuenta y Pedido: tienen una relación de agregación, ya que la cuenta está compuesta de los pedidos de los clientes, pero es posible que el cliente no tenga pedidos.
-Pedido y Pago: tienen una relación de agregación, ya que cada pedido puede referirse a varios medios de pago o posiblemente ninguno.
-Pago y Cuenta: tienen una relación de dependencia, ya que cada medio pago está relacionado exactamente con una cuenta.
-Pedido y Familia de Productos: tienen una relación de asociación, ya que tanto el pedido como el carrito de la compra están asociados con familias de productos.
-Familia de Productos y Producto: tienen una relación de dependencia, ya que cada familia de productos está relacionado exactamente con un producto.
+Cliente y Cuenta: tienen una relación de dependencia, ya que una cuenta no puede existir sin un cliente asociado.  
+
+Carrito de Compras y Cuenta: tienen una relación de dependencia, ya que un carrito de compras no puede existir sin estar vinculado a una cuenta.  
+
+Cliente y Usuario Web: tienen una relación de asociación, ya que el cliente puede registrarse como usuario de la web para poder comprar artículos en línea, pero no es obligatorio que el cliente sea un usuario de la web para hacer las compras (las compras también se pueden realizar por otros medios).  
+
+Usuario Web y Carrito de Compras: tienen una relación de asociación, ya que el usuario web puede estar vinculado a un carrito de compras.  
+
+Cuenta y Pedido: tienen una relación de agregación, ya que la cuenta está compuesta de los pedidos de los clientes, pero es posible que el cliente no tenga pedidos.  
+
+Pedido y Pago: tienen una relación de agregación, ya que cada pedido puede referirse a varios medios de pago o posiblemente ninguno.  
+
+Pago y Cuenta: tienen una relación de dependencia, ya que cada medio pago está relacionado exactamente con una cuenta.  
+
+Pedido y Familia de Productos: tienen una relación de asociación, ya que tanto el pedido como el carrito de la compra están asociados con familias de productos.  
+
+Familia de Productos y Producto: tienen una relación de dependencia, ya que cada familia de productos está relacionado exactamente con un producto.  
+
 Producto y Familia de Productos: tienen una relación de asociación, ya que un producto puede estar asociado a muchas familias de productos o a ninguno.  
+
 
 3.) Para las relaciones que se requiera, identifique las multiplicidades asociadas.  
 
