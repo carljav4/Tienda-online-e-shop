@@ -49,5 +49,8 @@ Producto y Familia de Productos: tienen una relación de * a 0..*, ya que un pro
 
 
 4.) Construya una primera versión de su diagrama de clases, usando Visual  
-![image](https://github.com/carljav4/Tienda-online-e-shop/assets/163133151/f3bd44e7-82cb-4cd9-9395-d586ef0bcaaa)
+![image](https://github.com/carljav4/Tienda-online-e-shop/assets/163133151/f3bd44e7-82cb-4cd9-9395-d586ef0bcaaa)  
+
+5.) Al generar codigo automatico solo me genera el nombre de las clases.  
+![image](https://github.com/carljav4/Tienda-online-e-shop/assets/163133151/95d4311c-41c3-4e9a-897d-76cb07e51033)
 
